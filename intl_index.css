@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html,body,.all-bg,.all-bg table,.all-bg td, .big-title {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    cursor: default;
+    color: #000;
+}
+
+h1,h2,.large,.left {
+    font-family: "Century Gothic","Lucida Grande",Arial,sans-serif;
+    font-size: 40px;
+}
+
+a {
+	text-decoration: none;
+	outline: 0;
+	cursor: auto;
+}
+
+.menu {
+    position: absolute;
+    bottom: 20px;
+    left: 141px;
+    z-index: 80;
+    width: 100%;
+    line-height: 12px;
+}
+
+.menu div {
+    height: 56px;
+    background: #000;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    padding: 7px 0 0 7px;
+}
+.menu h1 {
+	position: relative;
+	left: -141px;
+	margin-bottom: -63px;
+	width: 140px;
+	opacity: 0.99;
+	font-size: 40px;
+}
+
+h1 a {
+	padding: 41px 10px 10px 0;
+	color: #fff;
+	background: #000 url(http://ringvemedia.com/g/go.gif) 0 -30px repeat-x;
+	font-size: 11px;
+	text-align: right;
+	display: block;
+}
+
+
+.menu ul {
+	float: left;
+	width: 110px;
+}
+
+ul li {
+	list-style: none;
+}
+
+li a {
+    height: 12px;
+    padding: 0 5px;
+    font-weight: bold;
+    color: #999;
+    display: block;
+}
+
+li a:hover,li.cur a {
+    color: #fff;
+}
+
+.big-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 70;
+    overflow: auto;
+}
+
+.box {
+    position: absolute;
+    top: 15%;
+    right: 200px;
+    width: 500px;
+    padding-bottom: 100px;
+}
+
+.box div {
+    line-height: 1.5em;
+    background: #fff;
+    padding: 20px 30px;
+}
+
+.box div a {
+    text-decoration: underline;
+}
+
+.large {
+    text-align: right;
+    top: 20%;
+    right: 120px;
+    font-size: 13px;
+}
+
+.left {
+    text-align: left;
+    right: auto;
+    left: 180px;
+    font-size: 13px;
+}
+
+.large h2 {
+    font-size: 60px;
+}
+
+.all-bg div {
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	top: -50%;
+	left: -50%;
+}
+
+.all-bg table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.all-bg td {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.all-bg img {
+	min-height: 50%;
+	min-width: 50%;
+	margin: 0 auto;
+	display: block;
+	filter: alpha(opacity=60);
+}
